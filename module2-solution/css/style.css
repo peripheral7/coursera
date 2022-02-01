@@ -1,0 +1,104 @@
+/* display a desktop version of the site when the width of the browser window is 992px and above. Tablet view should appear only if the width of the browser window is between 768px and 991px, inclusively. Mobile view should appear only if the width of the browser is equal to or less than 767px. */
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+header {
+  width: 300px;
+  text-align: center;
+  margin: auto;
+  padding: 2rem
+}
+
+header>h1 {
+  font-size: 1.75rem;
+}
+
+article {
+  width: 90%;
+  margin: auto;
+
+}
+
+
+section {
+  box-sizing: border-box;
+  padding: 0rem 1rem 1rem 1rem;
+  border: 1px solid rgb(21, 13, 85);
+  border-width: thick;
+  position: relative;
+
+}
+
+section>h2 {
+  font-size: 1.25rem;
+  width: 200px;
+  background-color: rgba(165, 42, 42, 0.37);
+
+  border: 1px solid rgb(21, 13, 85);
+  border-width: thick;
+
+  position: relative;
+
+
+  /* left: 0px;
+  top: 0px;
+  margin: 0rem; */
+}
+
+
+@media screen and (min-width: 991px) {
+  section {
+    width: 31%;
+    background-color: rgb(187, 202, 247);
+    float: left;
+    margin: 1%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+  section {
+    width: 46%;
+    background-color: rgb(160, 180, 241);
+    float: left;
+  }
+
+  #first {
+    width: 48%;
+    margin-right: 2%;
+    margin-bottom: 1.5rem;
+
+  }
+
+  #second {
+    width: 48%;
+    margin-left: 2%;
+    margin-bottom: 1.5rem;
+  }
+
+  #third {
+    background-color: rgb(160, 180, 241);
+    float: none;
+    clear: both;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    width: 100%;
+    background-color: rgb(160, 180, 241);
+    margin: 1rem 0;
+  }
+
+  header {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    padding: 0.5rem
+  }
+}
