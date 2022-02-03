@@ -1,9 +1,12 @@
 /* display a desktop version of the site when the width of the browser window is 992px and above. Tablet view should appear only if the width of the browser window is between 768px and 991px, inclusively. Mobile view should appear only if the width of the browser is equal to or less than 767px. */
-body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+html {
+  font-size: 20px;
 }
 
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+}
 
 header {
   width: 300px;
@@ -19,37 +22,50 @@ header>h1 {
 article {
   width: 90%;
   margin: auto;
-
 }
-
 
 section {
   box-sizing: border-box;
-  padding: 0rem 1rem 1rem 1rem;
+  /* padding: 0rem 1rem 1rem 1rem; */
   border: 1px solid rgb(21, 13, 85);
   border-width: thick;
   position: relative;
 
 }
 
-section>h2 {
+.section-title {
   font-size: 1.25rem;
   width: 200px;
   background-color: rgba(165, 42, 42, 0.37);
+  text-align: center;
 
   border: 1px solid rgb(21, 13, 85);
   border-width: thick;
 
   position: relative;
-
-
-  /* left: 0px;
-  top: 0px;
-  margin: 0rem; */
+  float: right;
+  left: 5px;
+  top: -5px;
+  margin: 0rem;
 }
 
+section>p {
+  margin: 4rem 1rem;
+}
 
-@media screen and (min-width: 991px) {
+#chicken {
+  background-color: darkgoldenrod;
+}
+
+#beef {
+  background-color: darkgreen;
+}
+
+#sushi {
+  background-color: darksalmon;
+}
+
+@media screen and (min-width: 992px) {
   section {
     width: 31%;
     background-color: rgb(187, 202, 247);
@@ -88,7 +104,7 @@ section>h2 {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   section {
     width: 100%;
     background-color: rgb(160, 180, 241);
