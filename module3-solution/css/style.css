@@ -1,0 +1,42 @@
+body {
+  background-color: #E67E22;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar-container {
+  background-color: #F1C40F;
+  border: 1px dotted;
+}
+
+a.navbar-brand {
+  font-size: 2rem;
+  margin: 2rem;
+  margin-left: 15px;
+}
+#navbarSupportedContent ul li {
+  /* border: 1px solid black; */
+}
+
+.main-container {
+  margin: 20px auto;
+}
+
+
+.main-content{
+  height: 800px;
+  background-color: antiquewhite;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+img {
+  width: 200px;
+  
+}
+
+@media only screen and (min-width: 720px) {
+  a.navbar-brand {
+    font-size: 4rem;
+    margin: 2rem;
+  }
+}
