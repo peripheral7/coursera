@@ -3,7 +3,7 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-.navbar-container {
+nav {
   background-color: #F1C40F;
   border: 1px dotted;
 }
@@ -14,8 +14,10 @@ a.navbar-brand {
   margin-left: 15px;
 }
 #navbarSupportedContent ul li {
-  /* border: 1px solid black; */
+  border-top: 1px solid;
+  background-color: #f7e7a7a8;
 }
+
 
 .main-container {
   margin: 20px auto;
