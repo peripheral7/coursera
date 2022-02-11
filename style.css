@@ -1,0 +1,9 @@
+
+body {
+  background-color: antiquewhite;
+}
+a.module-links {
+  display: block;
+  margin: 1rem auto;
+  text-align: center;
+}
