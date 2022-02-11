@@ -23,10 +23,10 @@ a.navbar-brand {
 
 
 .main-content{
-  height: 800px;
+  /* height: 800px; */
   background-color: antiquewhite;
   padding: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 img {
