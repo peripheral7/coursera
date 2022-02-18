@@ -1,9 +1,17 @@
 
 body {
-  background-color: antiquewhite;
+  background-color: #085E7D;
+  font-family: 'Roboto Serif', sans-serif;
 }
-a.module-links {
+.module-box {
+  background-color: #FFD32D;
+}
+
+a.module-link {
   display: block;
   margin: 1rem auto;
   text-align: center;
+  text-decoration: none;
+  color: #008E89;
+  font-size: 32px;
 }
